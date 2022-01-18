@@ -1,0 +1,3 @@
+//Zoom Activation
+
+$(".zoom").elevateZoom();

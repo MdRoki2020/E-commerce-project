@@ -1,0 +1,252 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:#eff0f5;
+}
+
+/* --------------Pre-loader start -------------------*/
+#loading-page {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    background: #00000036;
+}
+
+#loader_gif {
+    height: 526px;
+    width: 540px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 21px;
+}
+/* --------------pre-loader end -------------------*/
+
+section{
+    padding:60px 0px;
+}
+         /* --------------nav start -------------------*/
+
+.mainbox{
+    font-size:27px;
+    cursor:pointer;
+    transition:all .4s;
+}
+.mainbox i:hover {
+    color: #4f538eb0;
+    transition: .2s;
+}
+.navstyle a {
+    color: #0000008c !important;
+}
+.sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #222;
+    z-index: 999;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition:all .3s;
+}
+.sidemenu a {
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+}
+.sidemenu a:hover{
+    color:white;
+}
+.sidemenu .closebtn {
+    position: absolute;
+    top: 56px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
+.showMenu{
+    width:300px !important;
+}
+
+/* --------------nav end -------------------*/
+
+
+.searchInput {
+    width: 500px !important;
+}
+.navstyle {
+    background: #c3c1c1 !important;
+}
+/*.nav-link.linkStyle {
+    color: #615e58 !important;*/
+.totalCarouselWrapper {
+    margin-top: 65px;
+}
+
+
+.categories h2{
+    font-family: Cairo;
+    text-align:center;
+    margin-bottom: 50px;
+}
+.singleCategories {
+    border: 1px solid #faab10;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #0000007a;
+    transition: .3s;
+}
+.singleCategories:hover {
+    transition: .3s;
+    transform: scale(1.1);
+    color: blueviolet;
+    border: 1px solid blue;
+    box-shadow: 1px 2px 3px;
+}
+.singleCategories i {
+    color: #faab10;
+    float: right;
+    margin-right: 20px;
+}
+.categoriesWrapper a {
+    text-decoration: none !important;
+}
+.specialOffers h2{
+    margin-bottom:50px;
+    text-align:center;
+    font-family: Cairo;
+}
+.specialOffersSingleBox{
+    border: 1px solid #faab10;
+    margin-bottom: 90px;
+    transition: .3s;
+}
+.specialOffersSingleBox:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 4px 4px black;
+}
+.business{
+    background: linear-gradient(#2f4a6899,#6a7de37d),url(https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2475/Default/stores/chaldal/components/landingPage2/LandingPage/images/banner-corporate-page.jpg?v=2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.businessIcon {
+    width: 82px;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    color: #fffffffa;
+}
+.businessText {
+    width: 299px;
+    font-size: 20px;
+    color: #ffffffd1;
+    text-align: center;
+    margin: auto;
+}
+
+.icon1 {
+    color: #ffffffd1;
+    font-size: 103px;
+    width: 145px;
+    text-align: center;
+    float: left;
+}
+.iconWrapper {
+    overflow: hiddhen;
+    display: inline-block;
+}
+.icon2 {
+    color: #ffffffd1;
+    font-size: 103px;
+    width: 145px;
+    text-align: center;
+    float: left;
+}
+.icon3 {
+    color: #ffffffd1;
+    font-size: 103px;
+    width: 145px;
+    text-align: center;
+    float: right;
+}
+.icon p {
+    font-size: 20px;
+}
+.icon {
+    background: #f5f5dc26;
+}
+
+                 /* --------------footer section -------------------*/
+
+.footerWrapper {
+    background: #f7f7f7;
+}
+.footer {
+    padding: 0px 50px;
+    font-family: sans-serif;
+    color: #000000a6;
+}
+.footerContains {
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.googleStore.mt-5 {
+    width: 179px;
+    margin: auto;
+}
+.AppStore.mt-5 {
+    width: 179px;
+    margin: auto;
+}
+
+.serviceWrapper {
+    margin-top: 25px;
+}
+.socialLinksWrapper {
+    padding: 60px 16px;
+    width: 255px;
+    margin: auto;
+}
+.socialLinks {
+    font-size: 28px;
+    margin-right: 36px;
+}
+.socialLinks:last-child {
+    margin-right: 0px;
+}
+.socialLinks a {
+    color: #faab10;
+}
+
+#loading {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+.copyrighttext {
+    border-top: 1px solid #faab10;
+    font-family: sans-serif;
+}
